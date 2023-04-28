@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.809,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.935,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.070,C:\Develop\Delphi\SharpToDelphiCallback\SharpToDelphiCB.dproj=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.989,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.944,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.318,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.153,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.287,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.072,C:\Develop\Delphi\SharpToDelphiCallback\SharpToDelphiCallback_TLB.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.836,C:\Develop\Delphi\SharpToDelphiCallback\SharpToDelphiCallback_TLB.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.755,C:\Develop\Delphi\SharpToDelphiCallback\UMain.pas=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.755,C:\Develop\Delphi\SharpToDelphiCallback\UMain.dfm=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.339,=C:\Develop\Delphi\SharpToDelphiCallback\SharpToDelphiCallback_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.106,=C:\Develop\Delphi\SharpToDelphiCallback\SharpToDelphiCallback_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.964,=C:\Develop\Delphi\SharpToDelphiCallback\SharpToDelphiCallback_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.489,=C:\Develop\Delphi\SharpToDelphiCallback\SharpToDelphiCallback_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.066,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.499,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.857,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.258,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.026,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.397,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.003,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.250,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.962,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.668,=C:\Users\vlasak.TEPLICE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023.04.28 08:30:47.034,C:\Develop\Delphi_Other\CSharpCallbackToDelphi\Delphi_Part\SharpToDelphiCallback_TLB.pas=</Transaction>
+    <Transaction>2023.04.28 08:31:31.941,=C:\Develop\Delphi_Other\CSharpCallbackToDelphi\Delphi_Part\SharpToDelphiCallback_TLB.pas</Transaction>
+    <Transaction>2023.04.28 08:42:49.052,C:\Develop\Delphi_Other\CSharpCallbackToDelphi\Delphi_Part\SharpToDelphiCallback_TLB.pas=</Transaction>
+    <Transaction>2023.04.28 08:43:04.877,=C:\Develop\Delphi_Other\CSharpCallbackToDelphi\Delphi_Part\SharpToDelphiCallback_TLB.pas</Transaction>
+    <Transaction>2023.04.28 09:11:10.272,C:\Develop\Delphi_Other\CSharpCallbackToDelphi\Delphi_Part\SharpToDelphiCallback_TLB.pas=</Transaction>
+    <Transaction>2023.04.28 09:12:35.096,=C:\Develop\Delphi_Other\CSharpCallbackToDelphi\Delphi_Part\SharpToDelphiCallback_TLB.pas</Transaction>
+  </Transactions>
+</BorlandProject>

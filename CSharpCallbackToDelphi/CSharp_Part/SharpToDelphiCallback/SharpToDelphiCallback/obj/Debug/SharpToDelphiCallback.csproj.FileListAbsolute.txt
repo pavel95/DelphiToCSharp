@@ -1,0 +1,13 @@
+C:\Develop\Csharp\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.dll
+C:\Develop\Csharp\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.pdb
+C:\Develop\Csharp\SharpToDelphiCallback\SharpToDelphiCallback\obj\Debug\SharpToDelphiCallback.csproj.AssemblyReference.cache
+C:\Develop\Csharp\SharpToDelphiCallback\SharpToDelphiCallback\obj\Debug\SharpToDelphiCallback.csproj.CoreCompileInputs.cache
+C:\Develop\Csharp\SharpToDelphiCallback\SharpToDelphiCallback\obj\Debug\SharpToDelphiCallback.dll
+C:\Develop\Csharp\SharpToDelphiCallback\SharpToDelphiCallback\obj\Debug\SharpToDelphiCallback.pdb
+C:\Develop\Delphi_Other\CSharpCallbackToDelphi\CSharp_Part\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.dll
+C:\Develop\Delphi_Other\CSharpCallbackToDelphi\CSharp_Part\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.pdb
+C:\Develop\Delphi_Other\CSharpCallbackToDelphi\CSharp_Part\SharpToDelphiCallback\SharpToDelphiCallback\obj\Debug\SharpToDelphiCallback.csproj.AssemblyReference.cache
+C:\Develop\Delphi_Other\CSharpCallbackToDelphi\CSharp_Part\SharpToDelphiCallback\SharpToDelphiCallback\obj\Debug\SharpToDelphiCallback.csproj.CoreCompileInputs.cache
+C:\Develop\Delphi_Other\CSharpCallbackToDelphi\CSharp_Part\SharpToDelphiCallback\SharpToDelphiCallback\obj\Debug\SharpToDelphiCallback.dll
+C:\Develop\Delphi_Other\CSharpCallbackToDelphi\CSharp_Part\SharpToDelphiCallback\SharpToDelphiCallback\obj\Debug\SharpToDelphiCallback.pdb
+C:\Develop\Delphi_Other\CSharpCallbackToDelphi\CSharp_Part\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.tlb

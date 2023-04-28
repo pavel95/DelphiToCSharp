@@ -1,0 +1,108 @@
+unit UMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Winapi.ActiveX, SharpToDelphiCallback_TLB;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    Label1: TLabel;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+procedure ReversedArrayCallback(safeArr: PSafeArray); stdcall;
+procedure SomethingElseCallback(somethingElse : ISomethingElse); stdcall;
+
+implementation
+
+procedure ReversedArrayCallback(safeArr: PSafeArray); stdcall;
+var
+  vr:Variant;
+  x, i, ElementsCount, LowBound : integer;
+  res : string;
+begin
+  vr:=VarArrayCreate ([0, 1], varInteger);
+  LowBound := safeArr.rgsabound[0].lLbound;  // Gets the bottom index
+  ElementsCount := safeArr.rgsabound[0].cElements;  // Gets the count of elements
+
+  for I := LowBound to ElementsCount - 1 do
+  begin
+    SafeArrayGetElement(safeArr, i, x);   // Gets element on index i and put it to x variable
+    res := res + x.ToString + ' ';
+  end;
+
+  Form1.Label1.Caption := 'Reversed array: ' + res;
+end;
+
+procedure SomethingElseCallback(somethingElse : ISomethingElse); stdcall;
+begin
+  somethingElse.ShowMessage('Hello, i am in the delphi again!');
+end;
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  Data : Pointer;
+  something : TSomething;
+  IntArray: array of Integer;
+  SafeArray: PSafeArray;
+  Bounds: TSafeArrayBound;
+  i, a: Integer;
+begin
+  // Initialize the integer array
+  SetLength(IntArray, 5);
+  for i := Low(IntArray) to High(IntArray) do
+    IntArray[i] := i;
+
+  // Set the bounds of the safe array
+  Bounds.lLbound := Low(IntArray);
+  Bounds.cElements := Length(IntArray);
+
+  // Create the safe array
+  SafeArray := SafeArrayCreate(VT_I4, 1, @Bounds);
+
+  // Access the safe array data pointer
+  SafeArrayAccessData(SafeArray, Data);
+
+  // Copy the integer array into the safe array
+  Move(IntArray[0], Data^, Length(IntArray) * SizeOf(Integer));
+  SafeArrayUnaccessData(SafeArray);
+
+  // Don't forget to clean up the safe array when you're done!
+  //SafeArrayDestroy(SafeArray);
+
+  i := 2;
+  SafeArrayGetElement(safeArray, i, a);
+
+  something := TSomething.Create(self);
+  something.SetIntArrayCallback(nativeInt(@ReversedArrayCallback));
+  something.Reverse(SafeArray);
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+var
+  something : TSomething;
+  somethingElse : TSomethingElse;
+begin
+  //
+  something := TSomething.Create(self);
+  something.SetSomethingElseCallback(nativeInt(@SomethingElseCallback));
+
+  somethingElse := TSomethingElse.Create(self);
+  something.CallSomethingElse(somethingElse.DefaultInterface);
+end;
+
+end.
