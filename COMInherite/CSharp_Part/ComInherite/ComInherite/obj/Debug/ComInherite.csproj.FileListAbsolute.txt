@@ -1,0 +1,7 @@
+C:\Develop\DelphiToCSharp\COMInherite\CSharp_Part\ComInherite\ComInherite\bin\Debug\ComInherite.dll
+C:\Develop\DelphiToCSharp\COMInherite\CSharp_Part\ComInherite\ComInherite\bin\Debug\ComInherite.pdb
+C:\Develop\DelphiToCSharp\COMInherite\CSharp_Part\ComInherite\ComInherite\bin\Debug\ComInherite.tlb
+C:\Develop\DelphiToCSharp\COMInherite\CSharp_Part\ComInherite\ComInherite\obj\Debug\ComInherite.csproj.AssemblyReference.cache
+C:\Develop\DelphiToCSharp\COMInherite\CSharp_Part\ComInherite\ComInherite\obj\Debug\ComInherite.csproj.CoreCompileInputs.cache
+C:\Develop\DelphiToCSharp\COMInherite\CSharp_Part\ComInherite\ComInherite\obj\Debug\ComInherite.dll
+C:\Develop\DelphiToCSharp\COMInherite\CSharp_Part\ComInherite\ComInherite\obj\Debug\ComInherite.pdb

@@ -1,0 +1,14 @@
+"C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" "C:\Develop\Csharp\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.dll" /codebase /u
+
+"C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" "C:\Develop\Csharp\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.dll" /tlb:"C:\Develop\Csharp\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.tlb" /codebase
+
+
+"C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" "C:\Develop\Delphi_Other\CSharpCallbackToDelphi\CSharp_Part\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.dll" /codebase /u
+
+
+"C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" "C:\Develop\Delphi_Other\CSharpCallbackToDelphi\CSharp_Part\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.dll" /tlb:"C:\Develop\Delphi_Other\CSharpCallbackToDelphi\CSharp_Part\SharpToDelphiCallback\SharpToDelphiCallback\bin\Debug\SharpToDelphiCallback.tlb" /codebase
+
+
+"C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" "C:\Develop\DelphiToCSharp\COMInherite\CSharp_Part\ComInherite\ComInherite\bin\Debug\ComInherite.dll" /codebase /u
+
+"C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" "C:\Develop\DelphiToCSharp\COMInherite\CSharp_Part\ComInherite\ComInherite\bin\Debug\ComInherite.dll" /tlb:"C:\Develop\DelphiToCSharp\COMInherite\CSharp_Part\ComInherite\ComInherite\bin\Debug\ComInherite.tlb" /codebase
